@@ -1,0 +1,15 @@
+header{
+  height: 120px;
+  background-color: var(--contrast-color-orange);
+  font-family: Ghotam_Black;
+  font-size: x-large;
+}
+
+#login-img{
+  width: auto
+}
+
+#login-btn:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
