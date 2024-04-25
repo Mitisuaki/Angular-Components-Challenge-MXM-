@@ -3,6 +3,7 @@ header{
   background-color: var(--contrast-color-orange);
   font-family: Ghotam_Black;
   font-size: x-large;
+  color: var(--bg-dark-gray);
 }
 
 #login-img{
