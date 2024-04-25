@@ -1,0 +1,49 @@
+header{
+  min-height: 120px;
+  background-color: var(--contrast-color-orange);
+  font-family: Ghotam_Black;
+  font-size: x-large;
+  color: var(--bg-dark-gray);
+}
+
+#login-img{
+  width: auto
+}
+
+#login-btn:hover, #header-nav ul li a:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
+
+@media (min-width: 992px) {
+
+  #header-nav{
+    min-width: 50%;
+    max-width: 50%;
+  }
+
+  #login-btn{
+    max-width: 100px;
+    padding-right: 0;
+  }
+}
+
+
+#header-nav ul {
+  margin: 0;
+  padding: 0;
+}
+#header-nav ul li{
+  list-style: none;
+}
+
+a{
+  color: var(--bg-dark-gray);
+  text-decoration:none;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
