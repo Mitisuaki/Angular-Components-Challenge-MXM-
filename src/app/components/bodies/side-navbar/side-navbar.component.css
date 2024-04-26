@@ -2,11 +2,13 @@
   min-height: calc(100vh - 120px);
   height: auto;
   background-color: var(--bg-dark-gray);
-  max-width: 15%;
+  max-width: 20%;
   min-width: 160px;
+  z-index: 2;
+  border-right: 2px solid var(--bg-light-gray);
 }
 
-@media screen and (min-device-width: 940px){
+@media (min-device-width: 940px){
   #openCloseBtn{
     z-index: -1;
     position: fixed;
@@ -28,9 +30,9 @@
   }
 }
 
-@media screen and (max-device-width: 940px){
+@media (max-device-width: 940px){
   #openCloseBtn{
-    z-index: 2;
+    z-index: 1;
     position: fixed;
     top: calc((100vh - 120px)/2 + 120px);
     left: 145px;
@@ -52,6 +54,10 @@
 
 nav ul{
   min-height: calc((100vh - 120px)*0.7);
+}
+
+li {
+  list-style: none;
 }
 
 a{
