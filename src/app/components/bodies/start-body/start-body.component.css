@@ -4,8 +4,15 @@
   background-position: center;
   background-size: cover;
   align-items: center;
+  width: auto;
+
 }
 
-img{
-  width: auto;
+.img-fluid{
+  max-width: 100%;
+  height: auto;
+}
+
+#start-body-img{
+  min-width: 768px;
 }
