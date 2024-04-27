@@ -1,0 +1,35 @@
+#body-contact-forms{
+  min-height: 100%;
+  min-width: 768px;
+  background-image: url(/assets/bg.png);
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  width: auto;
+  font-family: Century_Gothic;
+}
+
+h1{
+  font-family: Ghotam_Black;
+  font-size: 50px;
+}
+
+#submit{
+  background-color: var(--contrast-color-orange);
+  border-color: var(--contrast-color-orange);
+  color: var(--bg-light-gray) !important;
+}
+
+.contact-form{
+  max-width: 850px;
+  min-width: 200px;
+  width: 60%;
+}
+
+.form-control{
+  color: var(--contrast-color-orange);
+}
+
+label { /* Most modern browsers support this now. */
+  color:   var(--contrast-color-orange);
+}

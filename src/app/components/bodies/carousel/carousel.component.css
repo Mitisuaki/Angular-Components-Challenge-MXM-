@@ -6,6 +6,12 @@
   background-size: cover;
   align-items: center;
   width: auto;
+  font-family: Ghotam_Black;
+}
+
+h1{
+  font-size: 50px;
+  margin-bottom: 40px;
 }
 
 .carousel{
