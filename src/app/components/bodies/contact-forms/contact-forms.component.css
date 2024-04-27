@@ -8,6 +8,11 @@
   width: auto;
   font-family: Century_Gothic;
 }
+@media (max-width:430px){
+  #body-contact-forms{
+    min-width: 100vw;
+  }
+}
 
 h1{
   font-family: Ghotam_Black;

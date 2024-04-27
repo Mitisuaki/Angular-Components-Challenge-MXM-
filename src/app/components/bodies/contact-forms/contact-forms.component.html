@@ -19,7 +19,7 @@
       <label class="form-label" for="phoneNumber">Telefone</label>
       <div *ngIf="inputValues['input_phoneNumber'] !== ''">
         <p *ngIf="contactForm.get('phoneNumber')?.hasError('required')">Informe seu número</p>
-        <p *ngIf="contactForm.get('phoneNumber')?.hasError('pattern')">Invalid phoneNumber</p>
+        <p *ngIf="contactForm.get('phoneNumber')?.hasError('pattern')">Número inváldido</p>
       </div>
     </div>
 

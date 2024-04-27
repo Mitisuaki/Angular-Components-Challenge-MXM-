@@ -9,6 +9,12 @@
   font-family: Century_Gothic;
 }
 
+@media (max-width:430px){
+  #textNimg-2{
+    min-width: 100vw;
+  }
+}
+
 .box {
   max-width: 660px;
   height: 260px;
