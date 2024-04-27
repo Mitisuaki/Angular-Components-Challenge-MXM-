@@ -1,5 +1,6 @@
 #main{
-  min-width: calc(100vw - 160px);
+  /* min-width: calc(100vw - 160px); */
+  min-width: calc(100vw);
   min-height: calc(100vh - 120px);
   max-height: calc(100vh - 120px);
   overflow: auto;
