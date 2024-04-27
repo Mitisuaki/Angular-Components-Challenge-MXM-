@@ -15,7 +15,7 @@ export class ContactFormsComponent {
       fullname: new FormControl('', [Validators.required ,Validators.pattern(/^[^0-9][^@#]+$/)]),
       phoneNumber: new FormControl('', [Validators.required,Validators.pattern(/^\d{10}/)] ),
       email: new FormControl('', [Validators.required, Validators.email]),
-      messageToSend: new FormControl('', [Validators.required]),
+      message: new FormControl('', [Validators.required]),
       termos: new FormControl('', [Validators.required])
     });
 
@@ -23,7 +23,7 @@ export class ContactFormsComponent {
     inputValues: { [key: string]: string } = {
       input_fullname: '',
       input_email: '',
-      input_phoneNumber:''
+      input_phoneNumber:'',
     };
 
     inputChanged(inputName: string, event: any) {
