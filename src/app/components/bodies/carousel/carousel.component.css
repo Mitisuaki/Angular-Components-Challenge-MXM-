@@ -9,6 +9,16 @@
   font-family: Ghotam_Black;
 }
 
+@media (max-width:430px){
+  #body-carousel, .carousel,
+  .carousel-item, .carousel-item img{
+    max-width: 400px;
+    min-width: 100vw;
+    height: auto;
+    overflow: hidden;
+  }
+}
+
 h1{
   font-size: 50px;
   margin-bottom: 40px;
@@ -64,6 +74,12 @@ h1{
 
 .carousel-indicators li:hover{
   background: var(--bg-light-gray);
+}
+
+li::marker, li.active::marker{
+  display: none;
+  color: transparent;
+  background-color: transparent;
 }
 
 .carousel-indicators .active {

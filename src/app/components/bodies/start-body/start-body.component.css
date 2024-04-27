@@ -16,3 +16,9 @@
 #start-body-img{
   min-width: 768px;
 }
+
+@media (max-width:430px){
+  #start-body-img{
+    min-width: 100vw;
+  }
+}
