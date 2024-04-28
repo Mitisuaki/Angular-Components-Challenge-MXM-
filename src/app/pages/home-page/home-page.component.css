@@ -1,0 +1,47 @@
+#main{
+  /* min-width: calc(100vw - 160px); */
+  min-width: calc(100vw);
+  min-height: calc(100vh - 120px);
+  max-height: calc(100vh - 120px);
+  overflow: auto;
+  background-color: var(--bg-dark-gray);
+  color: var(--bg-light-gray);
+}
+
+#body {
+  max-height: calc(100vh - 120px);
+  min-width: 100vw
+}
+
+::-webkit-scrollbar,
+::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-track {
+    width: 12px;
+    border: none;
+    background: var(--bg-dark-gray);
+}
+
+::-webkit-scrollbar-button,
+::-webkit-scrollbar-track-piece,
+::-webkit-scrollbar-corner,
+::-webkit-resizer {
+    display: none;
+    background: var(--bg-dark-gray);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    background-color: var(--contrast-color-orange);
+}
+
+::-webkit-scrollbar-track:vertical {
+    background-image: url("../../../assets/scrollbar_track-y.png");
+    background-repeat: repeat-y;
+    background-size: contain;
+}
+::-webkit-scrollbar-track:horizontal {
+    background-image: url("../../../assets/scrollbar_track-x.png");
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+

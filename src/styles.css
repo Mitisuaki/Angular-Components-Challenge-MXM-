@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+:root{
+  --bg-dark-gray: #27262d;
+  --bg-light-gray: #d9d9d9;
+  --contrast-color-orange: #d9562a;
+}
+
+@font-face {
+  font-family: Ghotam_Black;
+  src: url(assets/fonts/gotham-condensed/GothamCondBlack.otf);
+}
+@font-face {
+  font-family: Century_Gothic;
+  src: url(assets/fonts/century-gothic/century-gothic.ttf);
+}

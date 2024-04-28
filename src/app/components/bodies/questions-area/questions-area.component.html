@@ -1,0 +1,17 @@
+<div id="body-questions-area" class="d-flex flex-column justify-content-center align-items-center">
+
+  <div class="titulo mb-5">
+    <h1 class="text-light fw-light">DÚVIDAS FREQUENTES</h1>
+  </div>
+
+  <div class="faq-container container">
+    <div class="faq-item" *ngFor="let faq of faqs">
+      <div (click)="toggleAnswer(faq)" class="question d-flex justify-content-between align-items-center">
+        <div >{{ faq.question }}</div>
+        <i class="fa-solid fa-plus"></i>
+      </div>
+      <p class="answer" *ngIf="faq.open">{{ faq.answer }}</p>
+    </div>
+  </div>
+
+</div>

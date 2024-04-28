@@ -1,0 +1,21 @@
+#start-body{
+  min-height: 100%;
+  background-image: url(../../../../assets/bg.png);
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  width: auto;
+  min-width: 768px;
+
+}
+
+.img-fluid{
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width:430px){
+  #start-body{
+    min-width: 100vw;
+  }
+}
