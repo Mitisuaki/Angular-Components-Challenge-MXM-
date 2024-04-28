@@ -9,13 +9,14 @@ import { CarouselComponent } from "../../components/bodies/carousel/carousel.com
 import { ContactFormsComponent } from "../../components/bodies/contact-forms/contact-forms.component";
 import { CommentAreaComponent } from "../../components/bodies/comment-area/comment-area.component";
 import { QuestionsAreaComponent } from "../../components/bodies/questions-area/questions-area.component";
+import { Footer1Component } from "../../components/footers/footer-1/footer-1.component";
 
 @Component({
     selector: 'app-home-page',
     standalone: true,
     templateUrl: './home-page.component.html',
     styleUrl: './home-page.component.css',
-    imports: [HeaderWithoutNavComponent, HeaderWithNavComponent, SideNavbarComponent, StartBodyComponent, TextNimg1Component, TextNimg2Component, CarouselComponent, ContactFormsComponent, CommentAreaComponent, QuestionsAreaComponent]
+    imports: [HeaderWithoutNavComponent, HeaderWithNavComponent, SideNavbarComponent, StartBodyComponent, TextNimg1Component, TextNimg2Component, CarouselComponent, ContactFormsComponent, CommentAreaComponent, QuestionsAreaComponent, Footer1Component]
 })
 export class HomePageComponent {
 
