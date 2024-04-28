@@ -24,7 +24,6 @@
   color: var(--bg-light-gray);
   background-color: var(--contrast-color-orange);
   padding: 30px;
-  cursor: pointer;
   border-radius: 20px 20px 20px 20px;
 }
 

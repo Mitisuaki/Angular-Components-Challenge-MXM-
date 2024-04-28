@@ -48,3 +48,9 @@
   padding: 10px;
   border-radius: 20px 20px 20px 20px;
 }
+
+.titulo h1{
+  color: var(--bg-dark-gray);
+  font-family: Ghotam_Black;
+  font-size: 50px;
+}
