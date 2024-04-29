@@ -1,5 +1,5 @@
 # Angular-Components-Challenge-MXM-
-This is a project is a challenge for a interview to MXM
+This project is a challenge for a interview to MXM
 
 For this challenge I started creating a base concept for the site. So the first step was getting data from some websites and think on what I would focus the site to be.
 Then one thing came in mind, Nvidia lanched a chatbot IA that you can run locally using your own database and I decided to base on that.
